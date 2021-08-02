@@ -1,0 +1,45 @@
+{
+  "name": "nextjs-material-kit-pro",
+  "version": "1.2.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "4.11.4",
+    "@material-ui/icons": "4.11.2",
+    "animate.css": "4.1.1",
+    "classnames": "2.3.1",
+    "moment": "2.29.1",
+    "next": "10.2.0",
+    "next-compose-plugins": "2.2.1",
+    "next-images": "1.7.0",
+    "node-sass": "5.0.0",
+    "nouislider": "15.1.0",
+    "path": "0.12.7",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-animate-on-scroll": "2.1.5",
+    "react-datetime": "3.0.4",
+    "react-dom": "17.0.2",
+    "react-image-gallery": "1.0.9",
+    "react-slick": "0.28.1",
+    "react-tagsinput": "3.19.0",
+    "webpack": "4.46.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev",
+    "compile-sass": "node-sass styles/scss/nextjs-material-kit-pro.scss styles/css/nextjs-material-kit-pro.css",
+    "minify-sass": "node-sass styles/scss/nextjs-material-kit-pro.scss styles/css/nextjs-material-kit-pro.min.css --output-style compressed",
+    "map-sass": "node-sass styles/scss/nextjs-material-kit-pro.scss styles/css/nextjs-material-kit-pro.css --source-map true"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": []
+  }
+}
